@@ -1,0 +1,67 @@
+body {
+    background-color: steelblue;
+    color: lightslategray;
+}
+
+#flexbox_1 {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    background-color: darkred;
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    align-self: flex-start;
+}
+
+#flexbox_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_bar {
+    background-color: darkkhaki;
+    border-radius: 25px;
+    align-self: flex-start;
+    width: 25%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+main {
+    background-color: rgb(37, 36, 44);
+    border-radius: 25px;
+    align-self: flex-end;
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: darkslategray;
+    border-radius: 25px; 
+    width: 100%;
+    margin: 40px auto;
+    padding: 5px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.vocab {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.def {
+    color: mediumslateblue;
+    text-decoration: none;
+}
